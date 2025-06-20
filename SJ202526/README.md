@@ -1,5 +1,8 @@
-Enthält alle Unterrichtsmaterialien und Informationen des Schuljahres 2025/26 zu folgenden Gegenständen:
+# Überblick
+## Allgemein
+Enthält alle Unterrichtsmaterialien und Informationen des Schuljahres 2025/26.
 
+## Gegenstände
 - [ ] SEW1 (Softwareentwicklung 1. Klasse)
 - [ ] SEW2 (Softwareentwicklung 2. Klasse)
 - [ ] SYT2-BS (Systemtechnik, Schwerpunkt Betriebssysteme 2. Klasse)
