@@ -1,6 +1,6 @@
 # Überblick
 ## Allgemein
-Enthält alle Unterrichtsmaterialien und Informationen des Schuljahres 2025/26.
+Enthält alle Unterrichtsmaterialien und Informationen des Schuljahres 2025/26!
 
 ## Gegenstände
 - [ ] SEW1 (Softwareentwicklung 1. Klasse)
