@@ -10,17 +10,17 @@ Die zwei Tage (2 x 200 Minuten) werden wir optimal nutzen, um von den absoluten 
 
 Wir werden ein einfaches Dashboard erstellen, das im Laufe des Kurses immer interaktiver wird. Es beginnt statisch, dann werden wir es mit JavaScript dynamisch machen, Benutzereingaben verarbeiten und schließlich Daten von einer externen Quelle abrufen.
 
-## Tag 1: Die Grundlagen von JavaScript & Erste DOM-Interaktionen (4 h)
+## Tag 1 
 
-**Ziel:** Verstehen, was JavaScript ist, wie man es ausführt, und die grundlegenden Bausteine (Variablen, Datentypen, Operatoren, Funktionen) sowie die ersten Schritte der DOM-Manipulation lernen.
+**Ziel:** Die Grundlagen von JavaScript & Erste DOM-Interaktionen (4 h)
 
-
+Verstehen, was JavaScript ist, wie man es ausführt, und die grundlegenden Bausteine (Variablen, Datentypen, Operatoren, Funktionen) sowie die ersten Schritte der DOM-Manipulation lernen.
 
 ### 1.1 Einführung in JavaScript & Setup (ca. 25 min)
 
 * **Was ist JavaScript?** 
-  Eine Programmiersprache, die Webseiten dynamisch macht
-  TODO: Erklären Sie, dass HTML für die Struktur, CSS für das Styling und JavaScript für die Interaktion und Logik zuständig ist. Es ist die einzige Sprache, die direkt im Browser funktioniert.
+  Eine Programmiersprache, die Webseiten dynamisch macht.
+  <span style="color:red">**TODO:**</span> Erklären Sie, dass HTML für die Struktur, CSS für das Styling und JavaScript für die Interaktion und Logik zuständig ist. Es ist die einzige Sprache, die direkt im Browser funktioniert.
 
 * **Warum JavaScript lernen?** 
   Es ist essentiell für Webanwendungen und eröffnet viele Karrieremöglichkeiten
@@ -34,7 +34,7 @@ Unsere erste JavaScript-Anwendung:
 
 **Übung 1.1.1: Projektordner und Dateien erstellen**
 
-Erstelle einen Ordner (z.B. mein_dashboard). Darin erstelle eine `index.html` und eine `script.js` Datei.
+Erstelle einen Ordner (z.B. `mein_dashboard`). Darin erstelle eine `index.html` und eine `script.js` Datei.
 
 **Übung 1.1.2: Basale HTML-Struktur** 
 
@@ -60,7 +60,8 @@ Grundlegender HTML-Code:
 
 **Übung 1.1.3: Erste JavaScript-Ausgabe** 
 
-Schreibe in `script.js`: `console.log('Hallo Dashboard!');`.
+Schreibe in `script.js` den folgenden Code:
+`console.log('Hallo Dashboard!');`
 
 **Übung 1.1.4: Ausführen mit Live Server** 
 
@@ -78,76 +79,66 @@ Einzeilige Kommentare mit `//`.
 
 ### 1.2 JavaScript Variablen & Datentypen (ca. 45 min)
 
-* Variablenkonzept: Ein Name, den Sie einem Wert geben, um ihn später zu verwenden. Variablen sind wie Labels für Werte.
+* Variablenkonzept: Ein Name, welcher einen Wert zugewiesen bekommt, um diesen Werte später zu verwenden. Variablen sind wie Labels für Werte.
 
-* let und const Keywords:
+* `let` und `const` Keywords:
+* `let`: Eine Variable, deren Wert geändert werden kann.
+  
+* `const`: Eine Konstante, deren Wert nach der Zuweisung nicht mehr geändert werden kann, sonst führt es zu einem Fehler. Benennungskonvention: Grossbuchstaben (z.B. `FILE_SIZE_LIMIT`).
 
-  * let: Eine Variable, deren Wert geändert werden kann.
+**Übung 1.2.1: Variablen deklarieren und neu zuweisen:**
 
-  * const: Eine Konstante, deren Wert nach der Zuweisung nicht mehr geändert werden kann, sonst führt es zu einem Fehler. Benennungskonvention: Grossbuchstaben (z.B. FILE_SIZE_LIMIT).
-
-Übung 1.2.1: Variablen deklarieren und neu zuweisen:
-
-* Variablen-Benennungsregeln: Nur Buchstaben, Zahlen, Unterstriche. Nicht mit einer Zahl beginnen. Keine reservierten Schlüsselwörter (z.B. console, if, for). Case-sensitive (Message ist anders als message).
-* Benennungskonventionen: camelCase (für Variablen, Funktionen) und snake_case (eher selten in JS, aber existiert). Wir werden camelCase verwenden.
-* Grundlegende Datentypen: Definitionen für verschiedene Datentypen. JavaScript erkennt diese Typen, um Operationen korrekt auszuführen.
-  * Strings: Zeichenfolgen, in Anführungszeichen ("" oder '' oder   für Template Strings). Template Strings (``): Ermöglichen das Einbetten von Variablen mit ${variable}.
-  * Numbers: Ganze Zahlen (Integers) und Dezimalzahlen (Floats). Arithmetische Operationen möglich.
-  * Booleans: true oder false Werte. Wichtig für Entscheidungen im Programm.
-  * Undefined: Standardwert für Variablen, denen noch kein Wert zugewiesen wurde.
-  * Null: Repräsentiert einen absichtlich leeren oder unbekannten Wert.
+* <u>Variablen-Benennungsregeln:</u> Nur Buchstaben, Zahlen, Unterstriche. Nicht mit einer Zahl beginnen. Keine reservierten Schlüsselwörter (z.B. console, if, for usw.). Case-sensitive (Message ist anders als message).
+* <u>Benennungskonventionen:</u> *camelCase* (für Variablen, Funktionen) und *snake_case* (eher selten in JS, aber existiert). Wir werden camelCase verwenden.
+* <u>Grundlegende Datentypen:</u> Definitionen für verschiedene Datentypen. JavaScript erkennt diese Typen, um Operationen korrekt auszuführen.
+  
+  * **Strings:** Zeichenfolgen, in Anführungszeichen (`""` oder `''`). Template Strings (``): Ermöglichen das Einbetten von Variablen mit ${variable}.
+  
+    ```javascript
+    let name = "John";
+    let topic = 'JavaScript';
+    console.log(`${name} is learning ${topic} today`);
+    ```
+  * **Numbers:** Ganze Zahlen (Integers) und Dezimalzahlen (Floats). Arithmetische Operationen möglich.
+  * **Booleans:** *true* oder *false* Werte. Wichtig für Entscheidungen im Programm.
+  * **Undefined:** Standardwert für Variablen, denen noch kein Wert zugewiesen wurde.
+  * **Null:** Repräsentiert einen absichtlich leeren oder unbekannten Wert.
 
 Diskussion: Unterschied zwischen undefined und null (undefined = default, null = intentional).
 
-Übung 1.2.2: Datentypen und Template Strings:
+<span style="color:red">**TODO:**</span> Aufgabenstellung ergänzen!
+
+**Übung 1.2.2: Datentypen und Template Strings:**
+
+<span style="color:red">**TODO:**</span> Aufgabenstellung ergänzen!
 
 * (Kurze Erläuterung zu typeof null als 'object' ist ein bekannter JavaScript-Fehler, aber kein Hindernis für Anfänger).
 
 ### 1.3 Operatoren (ca. 30 min)
 
-◦
+* **Arithmetische Operatoren:** `+`, `-`, `*`, `/`, `**` (Exponentiation), `%` (Rest).
 
-Arithmetische Operatoren: +, -, *, /, ** (Exponentiation), % (Rest)
+* **Zuweisungsoperatoren:** `=` (Standardzuweisung). Kombinierte Zuweisungen: `+=`, `-=`, `*=` und `/=`. 
+  Sonderfälle bei `/=`:
 
+  ```javascript
+  a /= 0;
+  console.log(a);
+  // Expected output: Infinity
+  
+  a /= "hello";
+  console.log(a);
+  // Expected output: NaN
+  ```
 
+* **Vergleichsoperatoren:** `==` (gleich, mit Typumwandlung), `!=` (nicht gleich), `===` (strikt gleich, ohne Typumwandlung), `!==` (strikt nicht gleich). `>`, `<`, `>=` und `<=`. 
+  <u>Empfehlung:</u> Immer strikte Vergleiche (===, !==) verwenden, um unerwartete Typumwandlungen zu vermeiden!
+* **Logische Operatoren:** `&&` (AND), `||` (OR) und `!` (NOT). Geben Booleans zurück.
+* **`typeof` Operator:** Prüft den Datentyp eines Werts und gibt ihn als String zurück.
 
-.
+**Übung 1.3.1: Operatoren anwenden**
 
-◦
-
-Zuweisungsoperatoren: = (Standardzuweisung)
-
-. Kombinierte Zuweisungen: +=, -=, *=
-
-.
-
-◦
-
-Vergleichsoperatoren: == (gleich, mit Typumwandlung), != (nicht gleich), === (strikt gleich, ohne Typumwandlung), !== (strikt nicht gleich)
-
-. >, <, >=, <=. Empfehlung: Immer strikte Vergleiche (===, !==) verwenden, um unerwartete Typumwandlungen zu vermeiden
-
-.
-
-◦
-
-Logische Operatoren: && (AND), || (OR), ! (NOT)
-
-. Geben Booleans zurück
-
-.
-
-◦
-
-typeof Operator: Prüft den Datentyp eines Werts und gibt ihn als String zurück
-
-
-
-.
-
-◦
-
-Übung 1.7: Operatoren anwenden:
+<span style="color:red">**TODO:**</span> Aufgabenstellung ergänzen!
 
 ### 1.4 Funktionen (ca. 50 min)
 
