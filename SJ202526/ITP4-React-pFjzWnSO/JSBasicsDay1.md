@@ -1,3 +1,7 @@
+[TOC]
+
+------
+
 # JavaScript Grundlagen
 
 Für diesen JavaScript-Crashkurs in einer Kleingruppe konzentrieren wir uns darauf, die Grundlagen von JavaScript und Schlüsselkonzepte durch ein aufbauendes, fortlaufendes Projekt zu erarbeiten. 
