@@ -36,7 +36,7 @@ Unsere erste JavaScript-Anwendung:
 
 Erstelle einen Ordner (z.B. `mein_dashboard`). Darin erstelle eine `index.html` und eine `script.js` Datei.
 
-**Übung 1.1.2: Basale HTML-Struktur** 
+**Übung 1.1.2: Grundlegende HTML-Struktur** 
 
 Füge den grundlegenden HTML-Code in `index.html` ein, einschliesslich des `<script src="script.js" defer></script>` Tags im `<head>`.
 
