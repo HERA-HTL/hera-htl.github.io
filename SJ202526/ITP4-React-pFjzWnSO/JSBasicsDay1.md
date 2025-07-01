@@ -36,7 +36,7 @@ Unsere erste JavaScript-Anwendung:
 
 Erstelle einen Ordner (z.B. `mein_dashboard`). Darin erstelle eine `index.html` und eine `script.js` Datei.
 
-**Übung 1.1.2: Grundlegende HTML-Struktur** 
+**Übung 1.1.2: Grundlegende HTML-Struktur erstellen** 
 
 Füge den grundlegenden HTML-Code in `index.html` ein, einschliesslich des `<script src="script.js" defer></script>` Tags im `<head>`.
 
@@ -63,7 +63,7 @@ Grundlegender HTML-Code:
 Schreibe in `script.js` den folgenden Code:
 `console.log('Hallo Dashboard!');`
 
-**Übung 1.1.4: Ausführen mit Live Server** 
+**Übung 1.1.4: Mit Live Server ausführen** 
 
 Installiere die VSCode-Erweiterung "Live Server". Öffne `index.html` mit Live Server. Öffne die Browser-Konsole (`Cmd+Opt+J` oder `Ctrl+Shift+J`). 
 
@@ -86,7 +86,7 @@ Einzeilige Kommentare mit `//`.
   
 * `const`: Eine Konstante, deren Wert nach der Zuweisung nicht mehr geändert werden kann, sonst führt es zu einem Fehler. Benennungskonvention: Grossbuchstaben (z.B. `FILE_SIZE_LIMIT`).
 
-**Übung 1.2.1: Variablen deklarieren und neu zuweisen:**
+**Übung 1.2.1: Variablen deklarieren und neu zuweisen**
 
 * <u>Variablen-Benennungsregeln:</u> Nur Buchstaben, Zahlen, Unterstriche. Nicht mit einer Zahl beginnen. Keine reservierten Schlüsselwörter (z.B. console, if, for usw.). Case-sensitive (Message ist anders als message).
 * <u>Benennungskonventionen:</u> *camelCase* (für Variablen, Funktionen) und *snake_case* (eher selten in JS, aber existiert). Wir werden camelCase verwenden.
@@ -108,7 +108,7 @@ Diskussion: Unterschied zwischen undefined und null (undefined = default, null =
 
 <span style="color:red">**TODO:**</span> Aufgabenstellung ergänzen!
 
-**Übung 1.2.2: Datentypen und Template Strings:**
+**Übung 1.2.2: Datentypen und Template Strings verwenden**
 
 <span style="color:red">**TODO:**</span> Aufgabenstellung ergänzen!
 
