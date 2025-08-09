@@ -2,8 +2,8 @@
 
 ------
 
-* **Tag 1** → JavaScript-Grundlagen mit Fokus auf alles, was für React unerlässlich ist.
-* **Tag 2** → Vertiefung moderner JavaScript-Features + Vorbereitung auf React-Komponenten-Denken.
+* <span style="color:grey">**Tag 1**</span> → JavaScript-Grundlagen mit Fokus auf alles, was für React unerlässlich ist.
+* <span style="color:green">**Tag 2**</span> → Vertiefung moderner JavaScript-Features + Vorbereitung auf React-Komponenten-Denken.
 
 ___
 
