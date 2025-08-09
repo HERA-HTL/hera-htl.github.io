@@ -56,7 +56,7 @@ Für die Programmierung mit JavaScript benötigen Sie lediglich zwei Dinge:
 
 **Code-Editor**: 
 
-VSCode ist kostenlos und auf allen wichtigen Betriebssystemen verfügbar. Du kannst ihn von [https://code.visualstudio.com]() herunterladen und installieren.
+VSCode ist kostenlos und auf allen wichtigen Betriebssystemen verfügbar. Du kannst ihn von [https://code.visualstudio.com](https://code.visualstudio.com) herunterladen und installieren.
 
 Für die Entwicklung von React-Anwendungen (JavaScript im Backend oder für komplexe Frontends) ist **Node.js** zusätzlich erforderlich.
 Node.js ist eine JavaScript-Laufzeitumgebung, die es ermöglicht, JavaScript außerhalb des Browsers auszuführen. LTS-Version von  [](`https://nodejs.org`) herunterladen und die Installation mit `node -v` in der Befehlszeile überprüfen.
