@@ -2,7 +2,7 @@
 
 ------
 
-* Vobereitung: siehe Appendix 
+* Vobereitung: siehe [Notwendige Installationen](#Notwendige-Installationen) unter Appendix 
 * <span style="color:green">**Tag 1**</span> → JavaScript-Grundlagen mit Fokus auf alles, was für React unerlässlich ist.
 * <span style="color:grey">**Tag 2**</span> → Vertiefung moderner JavaScript-Features + Vorbereitung auf React-Komponenten-Denken.
 
