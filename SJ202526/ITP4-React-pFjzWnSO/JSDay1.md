@@ -59,55 +59,55 @@ Für die Programmierung mit JavaScript benötigen Sie lediglich zwei Dinge:
 VSCode ist kostenlos und auf allen wichtigen Betriebssystemen verfügbar. Du kannst ihn von [https://code.visualstudio.com](https://code.visualstudio.com) herunterladen und installieren.
 
 Für die Entwicklung von React-Anwendungen (JavaScript im Backend oder für komplexe Frontends) ist **Node.js** zusätzlich erforderlich.
-Node.js ist eine JavaScript-Laufzeitumgebung, die es ermöglicht, JavaScript außerhalb des Browsers auszuführen. LTS-Version von  [](`https://nodejs.org`) herunterladen und die Installation mit `node -v` in der Befehlszeile überprüfen.
-
+Node.js ist eine JavaScript-Laufzeitumgebung, die es ermöglicht, JavaScript außerhalb des Browsers auszuführen. 
+Lade die letzte LTS-Version von  [https://nodejs.org](https://nodejs.org) herunter und überprüfe die Installation mit `node -v` in der Befehlszeile.
 
 
 Erste Schritte zur Ausführung eines JavaScript Codes
 
 Um Ihre erste JavaScript-Anwendung auszuführen, führe diese Schritte durch
 
-1. **Erstellen einen Projektordner**: Lege einen Ordner auf deinem Computer an, z.B. `beginning_javascript`, der alle deine Dateien enthält.
+1. **Erstelle einen Projektordner**: Lege einen Ordner auf deinem Computer an, z.B. `beginning_javascript`, der alle deine Dateien enthält.
 
-2. **Öffnen Sie den Ordner in VSCode**: Öffnen Sie Visual Studio Code und wählen Sie `File > Open Folder…` aus der Menüleiste, um den gerade erstellten Ordner zu öffnen
+2. **Öffne den Ordner in VSCode**: Öffne Visual Studio Code und wähle `File > Open Folder…` aus der Menüleiste, um den gerade erstellten Ordner zu öffnen..
 
-.
+3. **Erstelle eine HTML-Datei**: Erstelle eine neue Datei und speichere diese als `index.html`.
+  Füge den folgenden Standard-HTML-Code ein:
 
-3. **Erstellen Sie eine HTML-Datei**: Erstellen Sie eine neue Datei und speichern Sie diese als `index.html`
+  ```html
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <script src="script.js" defer></script>
+    </head>
+    <body>
+      <h1>Hello World!</h1>
+    </body>
+  </html>
+  ```
+4. Das `<script>`-Tag mit dem `defer`-Attribut stellt sicher, dass das JavaScript erst verarbeitet wird, nachdem das HTML-Dokument vom Browser geladen wurde.
 
-. Fügen Sie den folgenden Standard-HTML-Code ein:
+5. **Installiere die Live Server Extension**: Dies ist eine nützliche VSCode-Erweiterung, die dir ermöglicht, einen lokalen Server zum Testen deines Codes zu starten.
+   1. Klicke auf das Erweiterungssymbol (ein Puzzle-Block) in der Aktivitätsleiste oder drücke `Strg+Umschalt+X` (oder `Command+Umschalt+X` auf macOS).
+   2. Suche nach `'live server'` und wähle die von Ritwick Dey erstellte aus. Installiere diese.
 
-4. Das `<script>`-Tag mit dem `defer`-Attribut stellt sicher, dass das JavaScript erst verarbeitet wird, nachdem das HTML-Dokument vom Browser geladen wurde
 
-.
+6. **Starte den Live Server**: Kehre zum Explorer-Tab zurück, klicke mit der rechten Maustaste auf die Datei `index.html` und wähle `Open with Live Server` aus dem Kontextmenü. Dein Browser sollte sich automatisch öffnen und die HTML-Datei anzeigen.
 
-5. **Installieren Sie die Live Server Extension**: Dies ist eine nützliche VSCode-Erweiterung, die Ihnen ermöglicht, einen lokalen Server zum Testen Ihres Codes zu starten
+7. **Erstelle eine JavaScript-Datei**: Erstelle im Explorer-Sidebar eine neue Datei mit dem Namen `script.js.
 
-.
+8. **Füge JavaScript-Code hinzu**: Schreibe den folgenden Code in die Datei `script.js`:
 
-  ◦ Klicken Sie auf das Erweiterungssymbol (ein Puzzle-Block) in der Aktivitätsleiste oder drücken Sie `Strg+Umschalt+X` (oder `Command+Umschalt+X` auf macOS)
+   ```javascript
+   console.log('Learning JavaScript!');
+   ```
 
-.
+   
 
-  ◦ Suchen Sie nach `'live server'` und wählen Sie die von Ritwick Dey erstellte aus. Installieren Sie diese
+9. Der `console.log()`-Befehl wird verwendet, um Ausgaben in die Browser-Konsole zu drucken.
 
-.
-
-6. **Starten Sie den Live Server**: Kehren Sie zum Explorer-Tab zurück, klicken Sie mit der rechten Maustaste auf die Datei `index.html` und wählen Sie `Open with Live Server` aus dem Kontextmenü
-
-. Ihr Browser sollte sich automatisch öffnen und die HTML-Datei anzeigen
-
-.
-
-7. **Erstellen Sie eine JavaScript-Datei**: Erstellen Sie im Explorer-Sidebar eine neue Datei mit dem Namen `script.js`
-
-.
-
-8. **Fügen Sie JavaScript-Code hinzu**: Schreiben Sie den folgenden Code in die Datei `script.js`:
-9. Der `console.log()`-Befehl wird verwendet, um Ausgaben in die Browser-Konsole zu drucken
-
-.
-
-10. **Öffnen Sie die Browser-Konsole**: In Ihrem Browser müssen Sie die Konsole öffnen (z.B. mit `Command+Option+J` auf macOS oder `Strg+Umschalt+J` auf Windows/Linux)
-
-. Sie sollten die Meldung `'Learning JavaScript!'` in der Konsole sehen
+10. **Öffne die Browser-Konsole**: In deinem Browser musst du die Konsole öffnen (z.B. mit `Command+Option+J` auf macOS oder `Strg+Umschalt+J` auf Windows/Linux).
+    Du solltest die Meldung `'Learning JavaScript!'` in der Konsole sehen.
