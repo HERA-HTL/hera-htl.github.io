@@ -12,7 +12,7 @@ ___
 
 ## **0. Einführung – Ziel des Kurses** (10 Min)
 
-- Wer bin ich / Wozu lernen wir das?
+- Wozu lernen wir das?
 
 - JavaScript als Basis für React
 
