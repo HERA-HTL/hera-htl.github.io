@@ -2,7 +2,7 @@
 
 ------
 
-* Vobereitung: siehe [Notwendige Installationen](#install) unter Appendix 
+* Vorbereitung: siehe [Notwendige Installationen](#install) unter Appendix 
 * <span style="color:green">**Tag 1**</span> → JavaScript-Grundlagen mit Fokus auf alles, was für React unerlässlich ist.
 * <span style="color:grey">**Tag 2**</span> → Vertiefung moderner JavaScript-Features + Vorbereitung auf React-Komponenten-Denken.
 
@@ -10,7 +10,7 @@ ___
 
 
 
-## **0. Einführung – Ziel des Kurses** *(10 Min)*
+## **0. Einführung – Ziel des Kurses** (10 Min)
 
 - Wer bin ich / Wozu lernen wir das?
 
@@ -18,7 +18,7 @@ ___
 
 - Kursüberblick: Tag 1 = Grundlagen, Tag 2 = modernes JS + React-Denken
 
-- Überprüfung der Installationen
+- Überprüfung der Installationen (siehe [Notwendige Installationen](#install))
 
   
 
