@@ -20,9 +20,6 @@ ___
 
 - Überprüfung der Installationen (siehe [Notwendige Installationen](#install))
 
-  
-
-*Übung:* ...
 
 ## 1. Variablen & Datentypen (25 Min)
 
@@ -30,7 +27,7 @@ ___
 * Primitive Typen (string, number, boolean, null, undefined)
 * Arrays & Objekte – erste Einführung
 
-*Übung:*
+<u>Beispiele</u>:
 
 ```javascript
 let name = "Anna";
@@ -40,10 +37,9 @@ let person = { name: "Anna", age: 17 };
 
 console.log(name, age, hobbies[1], person.name);
 
-TODO: Ergänze das Code-Snippet 
 ```
 
-
+<u>Aufgabe:</u> Ergänze das Beispiel mit weiteren Anwendungen zu den Primitiven Typen inkl. null und undefined.
 
 ## Appendix
 
@@ -105,9 +101,50 @@ Um Ihre erste JavaScript-Anwendung auszuführen, führe diese Schritte durch
    console.log('Learning JavaScript!');
    ```
 
-   
-
 9. Der `console.log()`-Befehl wird verwendet, um Ausgaben in die Browser-Konsole zu drucken.
 
 10. **Öffne die Browser-Konsole**: In deinem Browser musst du die Konsole öffnen (z.B. mit `Command+Option+J` auf macOS oder `Strg+Umschalt+J` auf Windows/Linux).
     Du solltest die Meldung `'Learning JavaScript!'` in der Konsole sehen.
+
+## Lösungen
+
+### 1. Variablen & Datentypen
+
+In JavaScript gibt es verschiedene Datentypen, die unterschiedliche Arten von Werten darstellen. Hier sind die wichtigsten: String, Number, Boolean, null, undefined und ~~Symbol~~.
+
+**String:** Ein String ist eine Folge von Zeichen und wird verwendet, um Text darzustellen. Er wird in einfachen oder doppelten Anführungszeichen eingeschlossen.
+
+```javascript
+let meineZeichenkette = "Hallo Welt!";
+let meinName = 'Max Mustermann';
+```
+
+**Number:** Der Datentyp Number repräsentiert sowohl ganze Zahlen als auch Gleitkommazahlen (Dezimalzahlen).
+
+```javascript
+let meineZahl = 10;
+let pi = 3.1415;
+let negativeZahl = -5;
+```
+
+**Boolean:** Ein Boolean-Wert kann entweder `true` (wahr) oder `false` (falsch) sein. 
+
+Er wird oft in Kontrollstrukturen verwendet, um Bedingungen zu überprüfen.
+
+```javascript
+let istWahr = true;
+let istFalsch = false;
+```
+
+**Null:** `null` stellt einen absichtlich nicht vorhandenen Wert dar. Es ist ein eigenständiger Datentyp und kein Objekt.
+
+```javascript
+let meinWert = null;
+```
+
+Undefined: `undefined` wird verwendet, wenn einer Variablen noch kein Wert zugewiesen wurde. Es ist der Standardwert für Variablen, die deklariert, aber nicht initialisiert wurden.
+
+```javascript
+let meineVariable; // meineVariable ist undefined
+console.log(meineVariable); // Ausgabe: undefined
+```
